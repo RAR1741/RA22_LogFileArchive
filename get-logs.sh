@@ -1,9 +1,10 @@
 #!/bin/bash
 
-DATE=$(date '+%Y-%m-%d')
+# DATE=$(date '+%Y-%m-%d')
 
-mkdir -p $DATE
+# mkdir -p $DATE
 
-pushd $DATE
+# pushd $DATE
+pushd logs/1741/
 scp 'lvuser@roborio-1741-frc.local:/home/lvuser/logs/*.csv' .
 popd
